@@ -1,0 +1,14 @@
+{
+  "host": "admin.hsp-idf.com",
+  "port": "${process.env.PORT || 8080}",
+  "production": true,
+  "proxy": {
+    "enabled": false
+  },
+  "cron": {
+    "enabled": false
+  },
+  "admin": {
+    "autoOpen": false
+  }
+}
